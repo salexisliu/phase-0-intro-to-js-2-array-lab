@@ -20,11 +20,15 @@ function destructivelyRemoveFirstCat() {
 function appendCat(name) {
   const copyOfCats = [...cats, name]
   return copyOfCats
+  //copyOfCats.push(name)
+  //return copyOfCats
 }
 
 function prependCat(name) {
   const copyOfCats = [name, ...cats]
   return copyOfCats
+  //copyofcats.unshift(name)
+//return copyOfCats
 }
 
 function removeLastCat() {
